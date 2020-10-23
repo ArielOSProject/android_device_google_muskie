@@ -11,7 +11,7 @@ $(call inherit-product, vendor/ariel/config/ariel_common.mk)
 include device/google/wahoo/device-lineage.mk
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_walleye
+PRODUCT_NAME := ariel_walleye
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2
 PRODUCT_RESTRICT_VENDOR_FILES := false
