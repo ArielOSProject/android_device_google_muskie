@@ -8,8 +8,6 @@ $(call inherit-product, device/google/muskie/walleye/lineage_walleye.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/ariel/config/ariel_common.mk)
 
-include device/google/wahoo/device-lineage.mk
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := ariel_walleye
 PRODUCT_BRAND := google
